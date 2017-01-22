@@ -1,0 +1,70 @@
+/* MAke unread messages bold */
+treechildren:-moz-tree-cell-text(unread) {
+    font-weight: bold !important;
+}
+
+/* Change background color of unread messages to slightly yellow */
+treechildren::-moz-tree-cell(unread) {
+    background-color: #FFFFD5 !important;
+}
+
+
+treechildren::-moz-tree-cell(unread,selected) {
+    background-color: Highlight !important;
+}
+
+/* Change replied messages to italics */
+treechildren::-moz-tree-cell(replied) {
+    font-style: italic !important;
+}
+
+treechildren:-moz-tree-cell-text(replied) {
+    font-style: italic !important;
+}
+
+treechildren::-moz-tree-cell(replied,selected) {
+    font-style: italic !important;
+}
+
+treechildren:-moz-tree-cell-text(replied,selected) {
+    font-style: italic !important;
+}
+
+treechildren::-moz-tree-cell(replied,current) {
+    font-style: italic !important;
+}
+
+treechildren:-moz-tree-cell-text(replied,current) {
+    font-style: italic !important;
+}
+
+/* Change color of deleted messages */
+treechildren::-moz-tree-cell(imapdeleted) {
+    background-color: #999999 !important;
+}
+
+treechildren:-moz-tree-cell-text(imapdeleted) {
+    color: #FFFFFF !important;
+    text-decoration: line-through !important;
+}
+
+treechildren::-moz-tree-cell(imapdeleted,selected) {
+    background-color: #333333 !important;
+}
+
+treechildren::-moz-tree-cell(imapdeleted,current) {
+    background-color: #666666 !important;
+}
+
+treechildren:-moz-tree-cell-text(imapdeleted,selected) {
+    color: #DDDDFF !important;
+}
+
+treechildren:-moz-tree-cell-text(imapdeleted,current) {
+    color: #DDDDFF !important;
+}
+
+treechildren::-moz-tree-cell-text(imapdeleted, offline) {
+    background-color: #DDDDDD !important;
+    text-decoration: line-through !important;
+}

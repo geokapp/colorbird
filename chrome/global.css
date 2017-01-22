@@ -1,0 +1,24 @@
+/* Change menu and dialog font sizes */
+menupopup > * {
+    font-size: 12px !important
+}
+
+/* Change font-size of email list */
+.tree-rows {
+    font-size: 12px !important;
+}
+
+/* Change all fonts to Nimbus Sans */
+* {
+    font-family: "Nimbus Sans", sans-serif !important;
+}
+
+/* Hide status bar */
+#status-bar {
+    display: none !important;
+}
+
+/* Hide the throbber */
+#throbber-box {
+    display: none !important;
+}

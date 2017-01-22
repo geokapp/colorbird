@@ -1,0 +1,59 @@
+/* Make Sidebar header big and bold */
+#folderpane-title {
+    font-size: 1.8em !important;
+    font-weight: bold !important;
+}
+
+/* Change the background color of the folder panel */
+#folderPaneHeader,
+#folderTree treecol,
+#folderTree treechildren::-moz-tree-row(odd),
+#folderTree treechildren::-moz-tree-row(even),
+#folderTree {
+    appearance: none !important;
+    color: #F1F1F1 !important;
+    background-color: #515151 !important;
+    border: 0px solid #515151 !important;
+}
+
+#folderTree treechildren::-moz-tree-row(odd, selected),
+#folderTree treechildren::-moz-tree-row(even, selected) {
+    appearance: none !important;
+    color: #F1F1F1 !important;
+    background-color: #E25252 !important;
+}
+
+/* Change the backround of the message list */
+#acctCentralGrid {
+    background-color: #FEFEFE !important;
+    border-bottom: 6px solid #DDDDDD !important;
+}
+
+#threadTree treecol, 
+#threadTree  {
+    background-color: #FEFEFE !important;
+}
+
+/* Add borders to each message row */
+#threadTree > treechildren::-moz-tree-row {
+    border-bottom: 1px solid #F8F8F8 !important;
+    border-top: 1px solid #F8F8F8 !important;
+}
+
+/* Change the background of the message header */
+#msgHeaderView,
+#attachmentList {
+    background-color: #c1c1c1 !important;
+}
+
+#folderpane_splitter {
+    background-color: #515151 !important;
+    border-color: #515151 !important; 
+}
+
+#threadpane-splitter,
+#attachment-splitter {
+    background-color: #515151 !important;
+    border-color: #515151 !important;
+    height: 5px !important;
+}
