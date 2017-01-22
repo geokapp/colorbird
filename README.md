@@ -4,7 +4,7 @@ I have made some modifications on the default theme of thunderbird in order to m
 
 ## Installation
 
-To apply this theme copy the `chrome` folder of this repository under your thunderbird's profile folder (e.g., `~/.thunderbird/<profile>/.` or `~/.icedove/<profile>/.` in debian). Then, restart thunderbird for the new theme to take effect. Then, change the set of columns in the message list as below:
+To apply this theme copy the `chrome` folder of this repository under your thunderbird's profile folder (e.g., `~/.thunderbird/<profile>/.` or `~/.icedove/<profile>/.` in Debian). Then, restart thunderbird for the new theme to take effect. Finally, change the set of columns in the message list as below:
 - Thread
 - Star
 - Attachments
