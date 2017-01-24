@@ -23,6 +23,11 @@
     background-color: #E25252 !important;
 }
 
+/* Change the height of each folder pane row */
+#folderTree > treechildren::-moz-tree-row {
+    height: 24px !important;
+}
+
 /* Change the backround of the message list */
 #acctCentralGrid {
     background-color: #FEFEFE !important;
@@ -34,8 +39,9 @@
     background-color: #FEFEFE !important;
 }
 
-/* Add borders to each message row */
+/* Add borders to each message row and change the row height */
 #threadTree > treechildren::-moz-tree-row {
+    ehight: 24px;
     border-bottom: 1px solid #F8F8F8 !important;
     border-top: 1px solid #F8F8F8 !important;
 }
