@@ -41,7 +41,7 @@
 
 /* Add borders to each message row and change the row height */
 #threadTree > treechildren::-moz-tree-row {
-    ehight: 24px;
+    height: 24px !important;
     border-bottom: 1px solid #F8F8F8 !important;
     border-top: 1px solid #F8F8F8 !important;
 }
